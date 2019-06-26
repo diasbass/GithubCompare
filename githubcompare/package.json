@@ -1,5 +1,6 @@
 {
   "name": "githubcompare",
+  "homepage": "https://diasbass.github.io/projects/githubcompare",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
