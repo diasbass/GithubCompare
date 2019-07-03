@@ -54,4 +54,31 @@ export const Repository = styled.div`
       }
     }
   }
+
+  .repo_buttons {
+    &--container {
+      position: relative;
+      padding: 5px auto;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+    &--action {
+      border-radius: 3px;
+      background-color: transparent;
+      border: 1px solid #eee;
+      padding: 6px;
+      margin: 5px 5px 10px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      color: #777;
+      cursor: pointer;
+      &:hover {
+        background-color: #777;
+        border: 1px solid #777;
+        color: #000;
+      }
+    }
+  }
 `;
